@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(198, 218, 255) ;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'Karla';
+}
+p {
+    color: rgb(5, 28, 64);
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(0, 4, 255);
+}
+
+a:visited{
+    text-decoration: none;
+    color: rgb(19, 3, 246);
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+}
