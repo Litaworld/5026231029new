@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Link;
 use App\Http\Controllers\PegawaiControllerDua;
 use App\Http\Controllers\PegawaiController;
+use App\Http\Controllers\BukuTulisController;
 use App\Http\Controllers\BlogController;
 
 //import java.io;
@@ -87,3 +88,12 @@ Route::get('/pegawai/edit/{id}', [PegawaiController::class, 'edit']);
 Route::post('/pegawai/update', [PegawaiController::class, 'update']);
 Route::get('/pegawai/hapus/{id}', [PegawaiController::class, 'hapus']);
 Route::get('/pegawai/cari', [PegawaiController::class, 'cari']);
+
+//route latihan CRUD
+Route::get('/bukutulis', [BukuTulisController::class, 'index']);
+Route::get('/bukutulis/tambah', [BukuTulisController::class, 'tambah']);
+Route::post('/bukutulis/store', [BukuTulisController::class, 'store']);
+Route::get('/bukutulis/edit/{id}', [BukuTulisController::class, 'edit']);
+Route::post('/bukutulis/update', [BukuTulisController::class, 'update']);
+Route::get('/bukutulis/hapus/{id}', [BukuTulisController::class, 'hapus']);
+Route::get('/bukutulis/cari', [BukuTulisController::class, 'cari']);

@@ -33,6 +33,9 @@
                 <a class="nav-link" href="/pegawai">Pegawai</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="/bukutulis">Buku Tulis</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="#">Tugas CRUD</a>
             </li>
             <li class="nav-item">
