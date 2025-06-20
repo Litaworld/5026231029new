@@ -39,7 +39,7 @@
                 <a class="nav-link" href="#">Tugas CRUD</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">EAS</a>
+                <a class="nav-link" href="/karyawan">My Karyawan</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Latihan 1</a>

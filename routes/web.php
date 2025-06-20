@@ -11,6 +11,7 @@ use App\Http\Controllers\ChatController;
 use App\Http\Controllers\KategoriController;
 use App\Http\Controllers\MahasiswaController;
 use App\Http\Controllers\PekerjaController;
+use App\Http\Controllers\EASController;
 use App\Http\Controllers\BlogController;
 
 //import java.io;
@@ -141,3 +142,9 @@ Route::get('/pekerja', [PekerjaController::class, 'index']);
 Route::get('/pekerja/input', [PekerjaController::class, 'input']);
 Route::post('/pekerja/store', [PekerjaController::class, 'store']);
 Route::get('/pekerja/hapus/{kodepegawai}', [PekerjaController::class, 'hapus']);
+
+// EE-EAS
+Route::get('/eas', [EASController::class, 'index']);
+Route::get('/eas/edit', [EASController::class, 'edit']);
+Route::post('/eas/update', [EASController::class, 'update']);
+Route::get('/eas/view/{kodepegawai}', [EASController::class, 'view']);
